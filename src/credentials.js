@@ -17,7 +17,11 @@ function Credentials(){
         className={"credentialDetails"}
       >
         <strong>License Number:</strong> 152423 <br></br>
-        <a href="https://apps.colorado.gov/cde/licensing/Lookup/LicenseLookup.aspx" target="_blank">
+        <a 
+          href={"https://apps.colorado.gov/cde/licensing/Lookup/LicenseLookup.aspx"} 
+          target={"_blank"}
+          rel={"noopener noreferrer"}
+        >
           License Lookup
           </a>
       </div>

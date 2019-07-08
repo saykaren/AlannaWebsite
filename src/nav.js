@@ -1,19 +1,50 @@
 import React from 'react';
 import './App.css';
+import {BrowserRouter as Router, Route, Link} from 'react-router-dom';
+import HeroSection from './heroSection';
+import ServiceSection from './serviceSection';
+import ReferenceSection from './reference';
+import ContactMe from './contact';
+import Credentials from './credentials';
+import FAQ from './FAQ';
 // import IQtestingPage from './IQtestingpage.js';
 // import {Link} from "react-router";
 
 function NavigationBar(){
   return(
-      <div className={"navBar"}>
-        <div className={"navLink"}><a href="./IQtestingpage.js" >IQ Testing</a></div>
-        <div className={"navLink"}> <a href="https://apps.colorado.gov/cde/licensing/Lookup/LicenseLookup.aspx" target="_blank">Credentials</a></div>
-        <div className={"navLink"}><a href="https://www.signupgenius.com/go/10C044DA9AB2AA46-alanna" target="_blank">Schedule</a></div>
-        <div className={"navLink"}><a href="">Contact Me</a></div>
-      </div>      
+     <Router> 
+        <div>
+          <nav className={"navBar"}>
+            <div className={"navLink"}>
+              <Link to="/">Home</Link>
+            </div>
+            <div className={"navLink"}>
+              <Link to="/Services">Services/Testing</Link>
+            </div>
+            <div className={"navLink"}> 
+              <Link to="/Credentials">Credentials</Link>
+            </div>
+            <div className={"navLink"}>
+              <Link to="/Schedule">Schedule</Link>
+            </div>
+            <div className={"navLink"}>
+              <Link to="/contact">Contact Me</Link>
+            </div>
+          </nav>
+        
+          <Route path="/" component={HeroSection}/>
+          <Route path={'./serviceSection'} component={ServiceSection}/>
+          <Route path={'./reference'} component={ReferenceSection}/>
+          <Route path={'./credentials'} component={Credentials}/>
+          <Route path={'./FAQ'} component={FAQ}/>
+          <Route path={'.coutact'} component={ContactMe}/>
+            
+        </div>
+     </Router>
+  
+      
   );
 };
-
 
 
 export default NavigationBar

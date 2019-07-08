@@ -1,8 +1,12 @@
 import React from 'react';
 import './App.css';
+import NavigationBar from './nav';
+
 
 function ServiceSection(){
   return(
+    <div>
+      <NavigationBar />
     <div
       className={"services"}
 
@@ -42,13 +46,21 @@ function ServiceSection(){
           </div>
 
           <div>
-            <a href="https://www.signupgenius.com/go/10C044DA9AB2AA46-alanna" target="_blank" className={"button"} id={"buttonSign"}>Sign Up</a>
+            <a href="https://www.signupgenius.com/go/10C044DA9AB2AA46-alanna" 
+              target={"_blank" }
+              className={"button"} 
+              id={"buttonSign"}
+              rel={"noopener noreferrer"}
+            >
+              Sign Up
+            </a>
 
      </div>
      <br></br>
      <br></br>
       </div>
        
+    </div>
     </div>
   )
 }
