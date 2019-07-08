@@ -21,7 +21,7 @@ function ReferenceSection(){
             />
           </div>
           <div>
-            "I was amazed at how easy it was to schedule this test. My son doesn't sit still very long but Alanna allowed him to take multiple breaks to ensure he was focused on each section to get the best grade." <strong>- Nina</strong> 
+            "I was amazed at how easy it was to schedule this test. My son doesn't sit still very long but Alanna allowed him to take multiple breaks to ensure he was focused on each section to get the best grade." <strong>- Aaron</strong> 
           </div>
         </div>
         <div className={"reference"}>
