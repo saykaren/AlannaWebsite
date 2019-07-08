@@ -8,6 +8,8 @@ import HeroSection from './heroSection';
 import ServiceSection from './serviceSection';
 import ReferenceSection from './reference';
 import ContactMe from './contact';
+import Credentials from './credentials';
+import FAQ from './FAQ';
 
 ReactDOM.render(
   <div id="bodyContents">
@@ -16,6 +18,8 @@ ReactDOM.render(
     <ServiceSection />
     <ReferenceSection />
     <ContactMe />
+    <Credentials />
+    <FAQ />
   </div>, 
   document.getElementById('root')
 );

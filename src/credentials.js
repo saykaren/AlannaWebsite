@@ -5,29 +5,33 @@ function Credentials(){
   return(
     <div
       className={"credentials"}
-      
     >
       <div
         id={"credentialTitle"}
       >
-        <strong>Psychologis</strong> 
+        <strong>Alanna Everett's Credentials</strong> 
       </div>
       
       <div
         id={"licenseNumber"}
-        className={"credentialTitle"}
+        className={"credentialDetails"}
       >
-        <strong>License Number:</strong> 152423
+        <strong>License Number:</strong> 152423 <br></br>
+        <a href="https://apps.colorado.gov/cde/licensing/Lookup/LicenseLookup.aspx" target="_blank">
+          License Lookup
+          </a>
       </div>
+
       <div
-      id={"credentialTitle"}
-      className={"credentialTitle"}
+      id={"occupation"}
+      className={"credentialDetails"}
       >
         <strong>Occupation:</strong> Psychologist
       </div>
+     
      <div
      id={"address"}
-     className={"credentialTitle"}
+     className={"credentialDetails"}
      >
         <strong>Address:</strong> Thornton, CO
       </div>
@@ -38,4 +42,4 @@ function Credentials(){
 
 
 
-export default ContactMe
+export default Credentials
