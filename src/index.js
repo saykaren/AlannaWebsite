@@ -4,18 +4,9 @@ import './index.css';
 // import App from './App';
 import * as serviceWorker from './serviceWorker';
 import NavigationBar from './nav';
-// import HeroSection from './heroSection';
-// import ServiceSection from './serviceSection';
-// import ReferenceSection from './reference';
-// import ContactMe from './contact';
-// import Credentials from './credentials';
-// import FAQ from './FAQ';
 import Footer from './footer';
 
 
-
-
-// below worked fine but didn't do navigation 7.8.2019
 ReactDOM.render(
   <div id="bodyContents">
     <NavigationBar />
