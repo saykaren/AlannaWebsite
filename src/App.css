@@ -118,14 +118,22 @@ cursor: pointer;
 
 .subNavLink:hover{
   display: block;
+  opacity: 0.5;
 }
 
-.navLink, .subNavLink {
+.navLink {
 text-align: center;
 border: 1px solid white;
 border-radius: 25px;
 margin: 10px;
 background-color: white;
+width: 15rem;
+}
+
+.subNavLink {
+text-align: center;
+border-radius: 25px;
+margin: 10px;
 width: 15rem;
 }
 
