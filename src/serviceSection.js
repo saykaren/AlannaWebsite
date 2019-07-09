@@ -1,5 +1,7 @@
 import React from 'react';
 import './App.css';
+import ReferenceSection from './reference';
+import ContactMe from './contact';
 
 
 function ServiceSection(){
@@ -59,6 +61,9 @@ function ServiceSection(){
       </div>
        
     </div>
+    <ReferenceSection />
+    <ContactMe />
+    
     </div>
   )
 }

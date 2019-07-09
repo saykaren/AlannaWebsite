@@ -3,10 +3,10 @@ import './App.css';
 import {BrowserRouter as Router, Route, Link} from 'react-router-dom';
 import HeroSection from './heroSection';
 import ServiceSection from './serviceSection';
-// import ReferenceSection from './reference';
 import ContactMe from './contact';
 import Credentials from './credentials';
 import FAQ from './FAQ';
+import Home from './home';
 // import IQtestingPage from './IQtestingpage.js';
 // import {Link} from "react-router";
 
@@ -26,7 +26,7 @@ function NavigationBar(){
               <Link to={"/credentials"}>Credentials</Link>
               </div>
               <div className={"navLink"}>
-                <Link to={"/Schedule"}>Schedule</Link>
+                <Link to={"/Schedule"}>Schedule Testing</Link>
               </div>
               <div className={"navLink"}>
                 <Link to={"/FAQ"}>FAQ</Link>
@@ -36,8 +36,8 @@ function NavigationBar(){
               </div>
             </nav>
           
-    
-            <Route path={"/Home"} component={HeroSection}/>
+            <Route exact strict path={"/"} component={Home}/>
+            <Route path={"/Home"} component={Home}/>
             <Route path={"/credentials"} component={Credentials}/>
             <Route path={"/Services"} component={ServiceSection}/>
             <Route path={"/schedule"} component={HeroSection}/>
