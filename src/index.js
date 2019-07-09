@@ -10,6 +10,7 @@ import NavigationBar from './nav';
 // import ContactMe from './contact';
 // import Credentials from './credentials';
 // import FAQ from './FAQ';
+import Footer from './footer';
 
 
 
@@ -18,7 +19,7 @@ import NavigationBar from './nav';
 ReactDOM.render(
   <div id="bodyContents">
     <NavigationBar />
-
+    <Footer />
   </div>, 
   document.getElementById('root')
 );
