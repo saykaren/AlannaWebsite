@@ -107,12 +107,20 @@ padding: 10px;
 
 }
 
-.navLink a:hover{
+.navLink a:hover {
 color: #9177AC;
 cursor: pointer;
 }
 
-.navLink {
+.navLink a:hover + .subNavLink {
+  display: block;
+  }
+
+.subNavLink:hover{
+  display: block;
+}
+
+.navLink, .subNavLink {
 text-align: center;
 border: 1px solid white;
 border-radius: 25px;
@@ -120,6 +128,12 @@ margin: 10px;
 background-color: white;
 width: 15rem;
 }
+
+
+.subNavLink {
+  display: none;
+}
+
 
 .reference{
 border: .2rem solid black;

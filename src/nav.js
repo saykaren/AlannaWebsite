@@ -21,15 +21,15 @@ function NavigationBar(){
               </div>
               <div className={"navLink"}> 
                 <Link to={"/Services"}>Services</Link>
-              </div>
-              <div className={"navLink"}> 
-              <Link to={"/credentials"}>Credentials</Link>
+                <div className={"subNavLink"}> 
+                  <Link to={"/Services/FAQ"}>FAQ</Link>
+                </div>
               </div>
               <div className={"navLink"}>
                 <Link to={"/Schedule"}>Schedule Testing</Link>
-              </div>
-              <div className={"navLink"}>
-                <Link to={"/FAQ"}>FAQ</Link>
+                <div className={"subNavLink"}> 
+                  <Link to={"/Schedule/Credentials"}>Credentials</Link>
+                </div>
               </div>
               <div className={"navLink"}>
                 <Link to={"/contact"}>Contact Me</Link>
@@ -38,10 +38,10 @@ function NavigationBar(){
           
             <Route exact strict path={"/"} component={Home}/>
             <Route path={"/Home"} component={Home}/>
-            <Route path={"/credentials"} component={Credentials}/>
-            <Route path={"/Services"} component={ServiceSection}/>
-            <Route path={"/schedule"} component={HeroSection}/>
-            <Route path={'/FAQ'} component={FAQ}/>
+            <Route exact strict path={"/Schedule/Credentials"} component={Credentials}/>
+            <Route exact strict path={"/Services"} component={ServiceSection}/>
+            <Route exact strict path={"/Schedule"} component={HeroSection}/>
+            <Route exact strict path={"/Services/FAQ"} component={FAQ}/>
             <Route path={'/contact'} component={ContactMe} />
               
           </div>
