@@ -1,12 +1,10 @@
 import React from 'react';
 import './App.css';
-import NavigationBar from './nav';
 
 
 function ServiceSection(){
   return(
     <div>
-      <NavigationBar />
     <div
       className={"services"}
 

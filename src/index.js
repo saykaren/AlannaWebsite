@@ -2,15 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 // import App from './App';
-// import {BrowserRouter as Router, Route} from 'react-router-dom';
 import * as serviceWorker from './serviceWorker';
 import NavigationBar from './nav';
-import HeroSection from './heroSection';
-import ServiceSection from './serviceSection';
-import ReferenceSection from './reference';
-import ContactMe from './contact';
-import Credentials from './credentials';
-import FAQ from './FAQ';
+// import HeroSection from './heroSection';
+// import ServiceSection from './serviceSection';
+// import ReferenceSection from './reference';
+// import ContactMe from './contact';
+// import Credentials from './credentials';
+// import FAQ from './FAQ';
 
 
 
@@ -19,7 +18,6 @@ import FAQ from './FAQ';
 ReactDOM.render(
   <div id="bodyContents">
     <NavigationBar />
-    <ContactMe />
 
   </div>, 
   document.getElementById('root')
