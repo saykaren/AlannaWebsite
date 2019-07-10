@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
-import images from './photo/photo.js';
+// import images from './photo/photo.js';
+import "./photo/reference_Karen.jpg";
 
 function ReferenceSection(){
   return(
@@ -37,7 +38,7 @@ function ReferenceSection(){
         </div>
         <div className={"reference"}>
           <div>
-          <img src={"C:/Users/kgarcia/Desktop/Programming/module_1/alanna77react/alanna77/src/photo/reference_Karen.jpg"} 
+          <img src={ require("./photo/reference_Karen.jpg")} 
               className={"referenceImage"}
               alt={"reference Karen"}
             />
