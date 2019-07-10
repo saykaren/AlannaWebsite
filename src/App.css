@@ -68,7 +68,6 @@ font-size: 2rem;
 }
 
 #footer{
-  position: absolute;
   width: 100%;
   height: 2.5rem;
   word-wrap: break-word;
@@ -79,6 +78,8 @@ font-size: 2rem;
   color: #49167d;
   text-align: center;
   font-size: 1.5rem;
+  bottom: 0;
+  position: fixed;
 }
 
 #heroContactPic {
@@ -115,7 +116,7 @@ flex-wrap: wrap;
 }
 
 .navBar a {
-/* width: 20%; */
+
 text-decoration: none;
 padding: 10px;
 
