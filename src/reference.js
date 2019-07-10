@@ -12,7 +12,7 @@ function ReferenceSection(){
       <div id={"referenceSectionContainer"}>
         <div className={"reference"}>
           <img 
-            src={"https://images.unsplash.com/photo-1544776193-352d25ca82cd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1187&q=80" } 
+            src={"https://images.unsplash.com/photo-1437913135140-944c1ee62782?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" } 
             className={"referenceImage"}
             alt={"tina"}
           />
