@@ -2,7 +2,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import * as serviceWorker from './serviceWorker';
+import * as serviceWorker from '../../serviceWorker';
 import NavigationBar from './nav';
 import ServiceSection from './serviceSection';
 import ContactMe from './contact';

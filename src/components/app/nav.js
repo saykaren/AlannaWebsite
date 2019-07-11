@@ -7,8 +7,6 @@ import ContactMe from './contact';
 import Credentials from './credentials';
 import FAQ from './FAQ';
 import Home from './home';
-// import IQtestingPage from './IQtestingpage.js';
-// import {Link} from "react-router";
 
 function NavigationBar(){
   return(
