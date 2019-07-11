@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import ContactMe from './contact';
+import alannaHero from '../../assets/alanna_heroPic.jpg'
 
 function HeroSection(){
   return(
@@ -20,7 +21,7 @@ function HeroSection(){
 
         </div>
 
-        <img src="https://images.unsplash.com/photo-1558962009-34fff2bd2e9b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" 
+        <img src={alannaHero}
           alt={"Alanna Teaching"} 
           id={"heroContactPic"}
           rel={"noopener noreferrer"}
