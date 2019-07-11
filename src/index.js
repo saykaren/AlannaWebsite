@@ -1,16 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-// import App from './App';
 import * as serviceWorker from './serviceWorker';
-import NavigationBar from './nav';
-import Footer from './footer';
+import App from './App';
 
 
 ReactDOM.render(
   <div id="bodyContents">
-    <NavigationBar />
-    <Footer />
+    <App />
   </div>, 
   document.getElementById('root')
 );
