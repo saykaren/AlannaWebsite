@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import sayKarenLogo from '../../assets/sayKaren_Logo_transparent_7.2019.png'
 
 
 function Footer(){
@@ -18,7 +19,12 @@ function Footer(){
             target={"_blank"}
             rel={"noopener noreferrer"}
           >
-            <strong>sayKaren</strong>
+            <img src={sayKarenLogo}
+              className={"footerDetails"}
+              id={"sayKarenLogo"}
+              alt={"sayKaren"}
+            />
+            
             </a>
         </div>  
   
